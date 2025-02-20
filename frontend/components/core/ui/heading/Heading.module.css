@@ -1,0 +1,14 @@
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    /* background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    padding: 10px 0;
+    letter-spacing: 2px;
+    white-space: nowrap;
+  }
+  

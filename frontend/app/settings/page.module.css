@@ -1,0 +1,18 @@
+.settingsContainer {
+    /* text-align: center; */
+    margin-top: 20px;
+}
+
+.logoutButton {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logoutButton:hover {
+    background-color: #c82333;
+}

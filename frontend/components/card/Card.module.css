@@ -1,0 +1,47 @@
+.card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+    gap: 16px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.leftPane {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    color: #f39c12;
+}
+
+.projectName {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rightPane {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.rightPane p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}

@@ -1,0 +1,52 @@
+.navbar {
+    width: 25rem;
+    height: 100vh;
+    background: #1a1a1a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .navLinks {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: calc(100vh - 6rem); /* Adjust height to prevent overflow */
+    padding-bottom: 1rem;
+  }
+  
+  /* Scrollbar styles */
+  .navLinks::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .navLinks::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+  }
+  
+  .navItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    transition: background 0.3s;
+  }
+  
+  .navItem:hover {
+    background: #333;
+  }
+  

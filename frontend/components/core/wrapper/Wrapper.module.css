@@ -1,0 +1,30 @@
+/* Wrapper.module.css */
+.wrapper {
+    width: calc(100% - 25rem);
+    /* Adjusted to account for navbar width */
+    margin-left: 25rem;
+    /* Offset content to prevent overlap */
+    padding: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .wrapper {
+        width: calc(100% - 25rem);
+        margin-left: 25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: calc(100% - 25rem);
+        margin-left: 25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        width: calc(100% - 25rem);
+        margin-left: 25rem;
+    }
+}
